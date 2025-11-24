@@ -150,8 +150,8 @@
       font-size: 1rem;
     }
   }  
-  /*for mobile screen  make it responsive to 320px wid*/
-  @media (max-width:320px) {
+  /*for mobile screen  make it responsive to 360px wid*/
+  @media (max-width:360px) {
     nav  main  li{
       display: none;
       font-size: 1.5rem;
