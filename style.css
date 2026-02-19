@@ -20,6 +20,8 @@
     color: #F75270;
     font-family: "poppins",sans-serif;
     font-size:24px;
+    padding-left:17%;
+    padding-right:43% ;
     padding: 0  43%  0  17%;
   }
   nav  ul{
@@ -144,6 +146,27 @@
    }
    img{
     border-radius: 5%;
+   }
+   .logo{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 90%;
+    width: 70%;
+    border-radius: 60%;
+    border: solid #F7CAC9;
+    text-align: center;
+   }
+   .case{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 6%;
+   }
+   .info{
+    text-align: left;
+   }
+   .info1 , .info2{
+    font-size: 26px;
    }
    h3{
     font-size: 16px;
@@ -291,6 +314,20 @@
     font-size: 34px;
     margin-bottom: 20%;
    }
+   .case{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+   }
+   .logo{
+    height: 90%;
+    width: 50%;
+   }
+   .info1 , .info2{
+    font-size: 11px;
+    text-align: center;
+    margin-left: 9px;
+   }
   } 
    /*for another mobile  make it responsive to 768px wid*/
   @media (max-width:790px) {
@@ -364,9 +401,7 @@
     margin-bottom: 20%;
    }
   }  
-  /*gumana kayo pleaseeee huhu*/
-   
-
+  /*gumna kayo pleaseeee huhu*/
  
 
 
