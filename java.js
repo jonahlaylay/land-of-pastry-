@@ -1,12 +1,13 @@
 let index = alert ("Welcome to the Land Of Pastry!");
 
+const menuButton = document.querySelector('.pink');
 
-const menuButton = document.getElementByclass('pink');
-function pink (jo) {
+function pink(jo) {
+  alert(jo);
 }
 
 let j = prompt("These are the homemade pastries");
-let o = prompt ("enjoy!");
+let o = prompt("Enjoy!");
 
-pink(jo);
-  
+pink(j);
+pink(o);
